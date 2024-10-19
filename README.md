@@ -6,7 +6,7 @@ To create a sample JMeter test script for JPetStore integrated with InfluxDB and
 # Steps
 # JMeter Setup:
 You'll need the Backend Listener for InfluxDB in JMeter. You can install this via the JMeter Plugins Manager.
-![2](https://github.com/user-attachments/assets/a8e1c15d-208f-4a03-9d4f-f4bb6b53ae19)
+![Image 2](https://github.com/user-attachments/assets/6a402886-86d7-4b8b-bceb-b740120d7563)
 
 # InfluxDB Setup:
 * Run the InfluxDB container in detached mode.
