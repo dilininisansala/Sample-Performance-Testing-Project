@@ -11,9 +11,9 @@ You'll need the Backend Listener for InfluxDB in JMeter. You can install this vi
 
 # InfluxDB Setup:
 * Run the InfluxDB container in detached mode.
-  
+  ```
   docker run -d --name=influxdb -p 8086:8086 influxdb
-  
+  ```
 * After the container is running, you can access the InfluxDB API at via http://localhost:8086.
 * Then configure InfluxDB. You can configure InfluxDB using its configuration files or through its API.
 * Generate an API Token. InfluxDB uses tokens for authentication. You can generate a token by sending a request to the appropriate API endpoint or through the InfluxDB UI if you have it set up.
@@ -23,9 +23,9 @@ You'll need the Backend Listener for InfluxDB in JMeter. You can install this vi
 
 # Grafana Setup:
 * Run a Grafana container in detached mode.
-  
+  ```
   docker run -d --name=grafana -p 3000:3000 grafana/grafana
-  
+  ```
 * After running this command, you can access Grafana by going to http://localhost:3000 in your web browser.
 * Create a dashboard in Grafana to visualize metrics such as response times, throughput, error rates, etc.
   
